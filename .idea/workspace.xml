@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ed5e67c-edec-438b-88cd-9f4896d58f7d" name="Default Changelist" comment="" />
+    <list default="true" id="5ed5e67c-edec-438b-88cd-9f4896d58f7d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/ce/wcaquino/entidades/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ce/wcaquino/entidades/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/ce/wcaquino/servicos/AssertTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/ce/wcaquino/servicos/AssertTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/TestesUnitarios.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/TestesUnitarios.kotlin_module" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,16 +17,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/br/ce/wcaquino/servicos/LocacaoServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+            <state relative-caret-position="170">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -31,13 +36,31 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/br/ce/wcaquino/servicos/AssertTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+            <state relative-caret-position="442">
+              <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/ce/wcaquino/entidades/Usuario.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+              <folding>
+                <element signature="e#241#242#0" expanded="true" />
+                <element signature="e#264#265#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -58,6 +81,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -66,6 +92,7 @@
         <option value="$PROJECT_DIR$/src/main/java/br/ce/wcaquino/servicos/LocacaoServiceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/LocacaoServiceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/ce/wcaquino/servicos/LocacaoServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/ce/wcaquino/entidades/Usuario.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/ce/wcaquino/servicos/AssertTest.java" />
       </list>
     </option>
@@ -88,56 +115,36 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="TestesUnitarios" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestesUnitarios" type="462c0819:PsiDirectoryNode" />
+              <item name="WorkingJUnitMockitoTDD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WorkingJUnitMockitoTDD" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="TestesUnitarios" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestesUnitarios" type="462c0819:PsiDirectoryNode" />
+              <item name="WorkingJUnitMockitoTDD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WorkingJUnitMockitoTDD" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="TestesUnitarios" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestesUnitarios" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TestesUnitarios" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestesUnitarios" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TestesUnitarios" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestesUnitarios" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wcaquino" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TestesUnitarios" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestesUnitarios" type="462c0819:PsiDirectoryNode" />
+              <item name="WorkingJUnitMockitoTDD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WorkingJUnitMockitoTDD" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="TestesUnitarios" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestesUnitarios" type="462c0819:PsiDirectoryNode" />
+              <item name="WorkingJUnitMockitoTDD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WorkingJUnitMockitoTDD" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="TestesUnitarios" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestesUnitarios" type="462c0819:PsiDirectoryNode" />
+              <item name="WorkingJUnitMockitoTDD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WorkingJUnitMockitoTDD" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -147,10 +154,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -255,22 +262,12 @@
       <option name="presentableId" value="Default" />
       <updated>1601473379353</updated>
       <workItem from="1601473380818" duration="3883000" />
+      <workItem from="1601477559894" duration="827000" />
+      <workItem from="1601560161848" duration="1440000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AssertTest_test - 2020.09.30 at 11h 29m 33s.xml">
-      <configuration name="AssertTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AssertTest_test - 2020.09.30 at 11h 30m 37s.xml">
-      <configuration name="AssertTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AssertTest_test - 2020.09.30 at 11h 31m 52s.xml">
-      <configuration name="AssertTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AssertTest_test - 2020.09.30 at 11h 32m 17s.xml">
-      <configuration name="AssertTest.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AssertTest_test - 2020.09.30 at 11h 32m 41s.xml">
       <configuration name="AssertTest.test" configurationId="JUnit" />
     </history-entry>
@@ -289,43 +286,55 @@
     <history-entry file="AssertTest_test - 2020.09.30 at 11h 40m 19s.xml">
       <configuration name="AssertTest.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AssertTest_test - 2020.09.30 at 11h 53m 03s.xml">
+      <configuration name="AssertTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AssertTest_test - 2020.10.01 at 10h 53m 04s.xml">
+      <configuration name="AssertTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AssertTest_test - 2020.10.01 at 11h 01m 50s.xml">
+      <configuration name="AssertTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AssertTest_test - 2020.10.01 at 11h 03m 28s.xml">
+      <configuration name="AssertTest.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3883000" />
+    <option name="totallyTimeSpent" value="6150000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="22" width="1096" height="1906" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23166023" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24081238" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" weight="0.32994923" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32994923" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3297572" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3297572" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,20 +355,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/br/ce/wcaquino/servicos/LocacaoServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/ce/wcaquino/entidades/Usuario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/br/ce/wcaquino/servicos/AssertTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+        <state relative-caret-position="442">
+          <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
