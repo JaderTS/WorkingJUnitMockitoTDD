@@ -30,5 +30,6 @@ public class AssertTest {
         Assert.assertEquals(u1,u2);
 
         Assert.assertSame(u2, u2);
+
     }
 }
