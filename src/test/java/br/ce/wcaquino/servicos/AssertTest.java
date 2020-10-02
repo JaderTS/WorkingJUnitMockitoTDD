@@ -10,6 +10,7 @@ public class AssertTest {
         Assert.assertTrue(true);
         Assert.assertFalse(false);
 
+        //Assert.assertEquals("Erro na comparação",1,2);
         Assert.assertEquals(1,1);
         Assert.assertEquals(0.51,0.59265656,0.09);
         Assert.assertEquals(Math.PI, 3.14, 0.01);
@@ -30,6 +31,9 @@ public class AssertTest {
         Assert.assertEquals(u1,u2);
 
         Assert.assertSame(u2, u2);
+        Assert.assertNotSame(u1,u3);;
 
+        Assert.assertNull(u3);
+        Assert.assertNotNull(u1);
     }
 }

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ed5e67c-edec-438b-88cd-9f4896d58f7d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/br/ce/wcaquino/servicos/AssertTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/ce/wcaquino/servicos/AssertTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/ce/wcaquino/servicos/LocacaoServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/ce/wcaquino/servicos/LocacaoServiceTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/br/ce/wcaquino/servicos/LocacaoServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="391">
+              <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -30,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/br/ce/wcaquino/servicos/AssertTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="60" column="105" selection-start-line="60" selection-start-column="105" selection-end-line="60" selection-end-column="105" />
+            <state relative-caret-position="374">
+              <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,7 +46,9 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor />
+              <first_editor relative-caret-position="34">
+                <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              </first_editor>
               <second_editor />
             </state>
           </provider>
@@ -94,9 +96,10 @@
         <option value="$PROJECT_DIR$/src/main/java/br/ce/wcaquino/servicos/LocacaoService.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/ce/wcaquino/servicos/LocacaoServiceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/LocacaoServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/br/ce/wcaquino/servicos/LocacaoServiceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/ce/wcaquino/entidades/Usuario.java" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/test/java/br/ce/wcaquino/servicos/AssertTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/br/ce/wcaquino/servicos/LocacaoServiceTest.java" />
       </list>
     </option>
   </component>
@@ -189,7 +192,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AssertTest.test">
+  <component name="RunManager" selected="JUnit.LocacaoServiceTest.Test">
     <configuration name="LocacaoService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.ce.wcaquino.servicos.LocacaoService" />
       <module name="TestesUnitarios" />
@@ -247,8 +250,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AssertTest.test" />
         <item itemvalue="JUnit.LocacaoServiceTest.Test" />
+        <item itemvalue="JUnit.AssertTest.test" />
         <item itemvalue="JUnit.LocacaoService.Test" />
         <item itemvalue="Application.LocacaoService" />
       </list>
@@ -268,50 +271,50 @@
       <workItem from="1601477559894" duration="827000" />
       <workItem from="1601560161848" duration="1440000" />
       <workItem from="1601595225668" duration="339000" />
-      <workItem from="1601595648370" duration="830000" />
+      <workItem from="1601595648370" duration="2062000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AssertTest_test - 2020.09.30 at 11h 33m 53s.xml">
+    <history-entry file="AssertTest_test - 2020.10.01 at 21h 07m 25s.xml">
       <configuration name="AssertTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AssertTest_test - 2020.09.30 at 11h 34m 10s.xml">
+    <history-entry file="AssertTest_test - 2020.10.01 at 21h 08m 01s.xml">
       <configuration name="AssertTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AssertTest_test - 2020.09.30 at 11h 34m 52s.xml">
+    <history-entry file="AssertTest_test - 2020.10.01 at 21h 08m 52s.xml">
       <configuration name="AssertTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AssertTest_test - 2020.09.30 at 11h 39m 50s.xml">
+    <history-entry file="AssertTest_test - 2020.10.01 at 21h 09m 54s.xml">
       <configuration name="AssertTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AssertTest_test - 2020.09.30 at 11h 40m 19s.xml">
+    <history-entry file="AssertTest_test - 2020.10.01 at 21h 10m 14s.xml">
       <configuration name="AssertTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AssertTest_test - 2020.09.30 at 11h 53m 03s.xml">
-      <configuration name="AssertTest.test" configurationId="JUnit" />
+    <history-entry file="LocacaoServiceTest_Test - 2020.10.01 at 21h 11m 05s.xml">
+      <configuration name="LocacaoServiceTest.Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AssertTest_test - 2020.10.01 at 10h 53m 04s.xml">
-      <configuration name="AssertTest.test" configurationId="JUnit" />
+    <history-entry file="LocacaoServiceTest_Test - 2020.10.01 at 21h 11m 58s.xml">
+      <configuration name="LocacaoServiceTest.Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AssertTest_test - 2020.10.01 at 11h 01m 50s.xml">
-      <configuration name="AssertTest.test" configurationId="JUnit" />
+    <history-entry file="LocacaoServiceTest_Test - 2020.10.01 at 21h 13m 07s.xml">
+      <configuration name="LocacaoServiceTest.Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AssertTest_test - 2020.10.01 at 11h 03m 28s.xml">
-      <configuration name="AssertTest.test" configurationId="JUnit" />
+    <history-entry file="LocacaoServiceTest_Test - 2020.10.01 at 21h 13m 26s.xml">
+      <configuration name="LocacaoServiceTest.Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AssertTest_test - 2020.10.01 at 20h 35m 40s.xml">
-      <configuration name="AssertTest.test" configurationId="JUnit" />
+    <history-entry file="LocacaoServiceTest_Test - 2020.10.01 at 21h 14m 53s.xml">
+      <configuration name="LocacaoServiceTest.Test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7319000" />
+    <option name="totallyTimeSpent" value="8551000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="22" width="1096" height="1906" extended-state="7" />
+    <frame x="1912" y="22" width="1096" height="1906" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25048357" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25048357" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -320,7 +323,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3297572" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3297572" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -330,7 +333,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" visible="true" weight="0.3297572" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3297572" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -350,16 +353,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/br/ce/wcaquino/servicos/LocacaoServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -383,15 +376,27 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor />
+          <first_editor relative-caret-position="34">
+            <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/br/ce/wcaquino/servicos/AssertTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="60" column="105" selection-start-line="60" selection-start-column="105" selection-end-line="60" selection-end-column="105" />
+        <state relative-caret-position="374">
+          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/ce/wcaquino/servicos/LocacaoServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
