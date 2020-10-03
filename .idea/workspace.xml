@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ed5e67c-edec-438b-88cd-9f4896d58f7d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/ce/wcaquino/servicos/LocacaoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ce/wcaquino/LocacaoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/ce/wcaquino/servicos/AssertTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/ce/wcaquino/AssertTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/ce/wcaquino/servicos/LocacaoServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/ce/wcaquino/LocacaoServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/ce/wcaquino/LocacaoServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/ce/wcaquino/LocacaoServiceTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/br/ce/wcaquino/LocacaoServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="34" column="75" lean-forward="true" selection-start-line="34" selection-start-column="75" selection-end-line="34" selection-end-column="75" />
+            <state relative-caret-position="451">
+              <caret line="45" column="8" lean-forward="true" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -208,23 +205,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LocacaoServiceTest.Test (1)">
-    <configuration name="AssertTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestesUnitarios" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.ce.wcaquino.servicos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.ce.wcaquino.servicos" />
-      <option name="MAIN_CLASS_NAME" value="br.ce.wcaquino.servicos.AssertTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.LocacaoServiceTest.testLocacao">
     <configuration name="LocacaoServiceTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestesUnitarios" />
       <extension name="coverage">
@@ -275,13 +256,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LocacaoServiceTest.testLocacao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestesUnitarios" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.ce.wcaquino.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.ce.wcaquino" />
+      <option name="MAIN_CLASS_NAME" value="br.ce.wcaquino.LocacaoServiceTest" />
+      <option name="METHOD_NAME" value="testLocacao" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LocacaoServiceTest.testLocacao" />
         <item itemvalue="JUnit.LocacaoServiceTest.Test (1)" />
         <item itemvalue="JUnit.LocacaoServiceTest (1)" />
         <item itemvalue="JUnit.LocacaoServiceTest" />
         <item itemvalue="JUnit.LocacaoServiceTest.Test" />
-        <item itemvalue="JUnit.AssertTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -301,29 +298,11 @@
       <workItem from="1601595225668" duration="339000" />
       <workItem from="1601595648370" duration="2062000" />
       <workItem from="1601739700338" duration="16000" />
-      <workItem from="1601756386800" duration="2116000" />
+      <workItem from="1601756386800" duration="2818000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AssertTest_test - 2020.10.01 at 21h 08m 01s.xml">
-      <configuration name="AssertTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AssertTest_test - 2020.10.01 at 21h 08m 52s.xml">
-      <configuration name="AssertTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AssertTest_test - 2020.10.01 at 21h 09m 54s.xml">
-      <configuration name="AssertTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AssertTest_test - 2020.10.01 at 21h 10m 14s.xml">
-      <configuration name="AssertTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LocacaoServiceTest_Test - 2020.10.01 at 21h 11m 05s.xml">
-      <configuration name="LocacaoServiceTest.Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LocacaoServiceTest_Test - 2020.10.01 at 21h 11m 58s.xml">
-      <configuration name="LocacaoServiceTest.Test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LocacaoServiceTest_Test - 2020.10.01 at 21h 13m 07s.xml">
       <configuration name="LocacaoServiceTest.Test" configurationId="JUnit" />
     </history-entry>
@@ -336,9 +315,27 @@
     <history-entry file="LocacaoServiceTest - 2020.10.03 at 17h 28m 57s.xml">
       <configuration name="LocacaoServiceTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LocacaoServiceTest_Test_(1) - 2020.10.03 at 17h 55m 48s.xml">
+      <configuration name="LocacaoServiceTest.Test (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LocacaoServiceTest_Test_(1) - 2020.10.03 at 18h 01m 32s.xml">
+      <configuration name="LocacaoServiceTest.Test (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LocacaoServiceTest_Test_(1) - 2020.10.03 at 18h 01m 54s.xml">
+      <configuration name="LocacaoServiceTest.Test (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LocacaoServiceTest_Test_(1) - 2020.10.03 at 18h 02m 18s.xml">
+      <configuration name="LocacaoServiceTest.Test (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LocacaoServiceTest_Test_(1) - 2020.10.03 at 18h 02m 33s.xml">
+      <configuration name="LocacaoServiceTest.Test (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LocacaoServiceTest_testLocacao - 2020.10.03 at 18h 03m 32s.xml">
+      <configuration name="LocacaoServiceTest.testLocacao" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10683000" />
+    <option name="totallyTimeSpent" value="11385000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="30" width="974" height="1057" extended-state="0" />
@@ -353,7 +350,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -363,7 +360,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -432,8 +429,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/br/ce/wcaquino/LocacaoServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="34" column="75" lean-forward="true" selection-start-line="34" selection-start-column="75" selection-end-line="34" selection-end-column="75" />
+        <state relative-caret-position="451">
+          <caret line="45" column="8" lean-forward="true" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
