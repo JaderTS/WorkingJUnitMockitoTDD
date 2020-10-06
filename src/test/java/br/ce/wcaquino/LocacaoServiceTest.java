@@ -1,6 +1,7 @@
 package br.ce.wcaquino;
 
 import br.ce.wcaquino.Exception.FilmeSemEstoqueExcetion;
+import br.ce.wcaquino.Exception.LocadoraExcetion;
 import br.ce.wcaquino.entidades.Filme;
 import br.ce.wcaquino.entidades.Locacao;
 import br.ce.wcaquino.entidades.Usuario;
@@ -26,6 +27,7 @@ public class LocacaoServiceTest {
 
     @Rule
     public ExpectedException exception = ExpectedException.none();
+    private Object nul;
 
     @Test
     public void testLocacao() throws Exception {
@@ -64,5 +66,22 @@ public class LocacaoServiceTest {
 
         //acao
         service.alugarFilme(usuario,filme);
+    }
+
+    //Robusta
+    @Test
+    public void testLocacao_usuarioVazio() throws FilmeSemEstoqueExcetion{
+       //cenario
+       LocacaoService service = new LocacaoService();
+       Filme filme = new Filme("Filme 2", 0, 4.0);
+
+       //acao
+        try {
+            service.alugarFilme(null, filme);
+        } catch (LocadoraExcetion e) {
+            e.printStackTrace();
+        }
+
+
     }
 }
