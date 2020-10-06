@@ -1,7 +1,10 @@
 package br.ce.wcaquino;
 
+import java.nio.file.FileAlreadyExistsException;
 import java.util.Date;
 
+import br.ce.wcaquino.Exception.FilmeSemEstoqueExcetion;
+import br.ce.wcaquino.Exception.LocadoraExcetion;
 import br.ce.wcaquino.entidades.Filme;
 import br.ce.wcaquino.entidades.Locacao;
 import br.ce.wcaquino.entidades.Usuario;
@@ -17,7 +20,15 @@ public class LocacaoService {
 
     public Locacao alugarFilme(Usuario usuario, Filme filme) throws Exception {
         if (filme.getEstoque() == 0) {
-            throw new Exception("Filme sem estoque!");
+            throw new FilmeSemEstoqueExcetion();
+        }
+
+        if (usuario == null) {
+            throw new LocadoraExcetion("Ususário vazio!");
+        }
+
+        if (filme == null) {
+            throw new LocadoraExcetion("Filme vazio!")
         }
 
         Locacao locacao = new Locacao();

@@ -1,5 +1,6 @@
 package br.ce.wcaquino;
 
+import br.ce.wcaquino.Exception.FilmeSemEstoqueExcetion;
 import br.ce.wcaquino.entidades.Filme;
 import br.ce.wcaquino.entidades.Locacao;
 import br.ce.wcaquino.entidades.Usuario;
@@ -54,42 +55,12 @@ public class LocacaoServiceTest {
     }
 
     //Forma elegante
-    @Test(expected = Exception.class)
+    @Test(expected = FilmeSemEstoqueExcetion.class)
     public void testLocacao_filmeSemEstoque() throws Exception {
         //cenario
         LocacaoService service = new LocacaoService();
         Usuario usuario = new Usuario("Usuario 1");
         Filme filme = new Filme("Fime 1", 0, 5.0);
-
-        //acao
-        service.alugarFilme(usuario,filme);
-    }
-
-    @Test
-    public void testLocacao_filmeSemEstoque_2(){
-        //cenario
-        LocacaoService service = new LocacaoService();
-        Usuario usuario = new Usuario("Usuario 1");
-        Filme filme = new Filme("Fime 1", 0, 5.0);
-
-        //acao
-        try {
-            service.alugarFilme(usuario,filme);
-            Assert.fail("Deveria ter lançado uma falha!");
-        } catch (Exception e) {
-            Assert.assertThat(e.getMessage(), is("Filme sem estoque!"));
-        }
-    }
-
-    @Test
-    public void testLocacao_filmeSemEstoque_3() throws Exception {
-        //cenario
-        LocacaoService service = new LocacaoService();
-        Usuario usuario = new Usuario("Usuario 1");
-        Filme filme = new Filme("Fime 1", 0, 5.0);
-
-        exception.expect(Exception.class);
-        exception.expectMessage("Filme sem estoque!");
 
         //acao
         service.alugarFilme(usuario,filme);
