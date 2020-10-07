@@ -22,11 +22,11 @@ public class LocacaoService {
         }
 
         if (usuario == null) {
-            throw new LocadoraExcetion("Ususário vazio!");
+            throw new LocadoraExcetion("Usuario vazio");
         }
 
         if (filme == null) {
-            throw new LocadoraExcetion("Filme vazio!");
+            throw new LocadoraExcetion("Filme vazio");
         }
 
         Locacao locacao = new Locacao();
@@ -41,7 +41,6 @@ public class LocacaoService {
         locacao.setDataRetorno(dataEntrega);
 
         //Salvando a locacao...
-        //TODO adicionar método para salvar
 
         return locacao;
     }

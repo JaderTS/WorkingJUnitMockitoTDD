@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5ed5e67c-edec-438b-88cd-9f4896d58f7d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/br/ce/wcaquino/LocacaoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ce/wcaquino/LocacaoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/ce/wcaquino/AssertTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/ce/wcaquino/AssertTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/br/ce/wcaquino/LocacaoServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/ce/wcaquino/LocacaoServiceTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
@@ -18,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/br/ce/wcaquino/LocacaoServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1024">
-              <caret line="79" column="26" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="26" />
+            <state relative-caret-position="766">
+              <caret line="72" selection-start-line="72" selection-end-line="72" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -31,10 +32,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar!/org/hamcrest/MatcherAssert.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/ce/wcaquino/Exception/LocadoraExcetion.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="29" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="29" />
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding>
                 <element signature="e#194#195#0" expanded="true" />
                 <element signature="e#224#225#0" expanded="true" />
@@ -43,11 +53,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/br/ce/wcaquino/AssertTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/ce/wcaquino/LocacaoService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="109" selection-start-line="18" selection-start-column="109" selection-end-line="18" selection-end-column="109" />
+            <state relative-caret-position="408">
+              <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -71,8 +93,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/ce/wcaquino/Exception/FilmeSemEstoqueExcetion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="61" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -108,8 +130,9 @@
         <option value="$PROJECT_DIR$/src/main/java/Exception/FilmeSemEstoqueExcetion.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/ce/wcaquino/Exception/FilmeSemEstoqueExcetion.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/ce/wcaquino/Exception/LocadoraExcetion.java" />
-        <option value="$PROJECT_DIR$/src/test/java/br/ce/wcaquino/LocacaoServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/br/ce/wcaquino/AssertTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/ce/wcaquino/LocacaoService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/br/ce/wcaquino/LocacaoServiceTest.java" />
       </list>
     </option>
   </component>
@@ -132,6 +155,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -199,7 +223,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -233,7 +256,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LocacaoServiceTest.testLocacao_filmeSemEstoque">
+  <component name="RunManager" selected="JUnit.LocacaoServiceTest.testLocacao_usuarioVazio">
     <configuration name="LocacaoServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestesUnitarios" />
       <extension name="coverage">
@@ -245,22 +268,6 @@
       <option name="PACKAGE_NAME" value="br.ce.wcaquino" />
       <option name="MAIN_CLASS_NAME" value="br.ce.wcaquino.LocacaoServiceTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LocacaoServiceTest.testLocacao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestesUnitarios" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.ce.wcaquino.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.ce.wcaquino" />
-      <option name="MAIN_CLASS_NAME" value="br.ce.wcaquino.LocacaoServiceTest" />
-      <option name="METHOD_NAME" value="testLocacao" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -313,13 +320,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LocacaoServiceTest.testLocacao_usuarioVazio" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestesUnitarios" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.ce.wcaquino.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.ce.wcaquino" />
+      <option name="MAIN_CLASS_NAME" value="br.ce.wcaquino.LocacaoServiceTest" />
+      <option name="METHOD_NAME" value="testLocacao_usuarioVazio" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LocacaoServiceTest.testLocacao_filmeSemEstoque" />
+        <item itemvalue="JUnit.LocacaoServiceTest.testLocacao_usuarioVazio" />
         <item itemvalue="JUnit.LocacaoServiceTest" />
+        <item itemvalue="JUnit.LocacaoServiceTest.testLocacao_filmeSemEstoque" />
         <item itemvalue="JUnit.LocacaoServiceTest.testLocacao_filmeSemEstoque_3" />
         <item itemvalue="JUnit.LocacaoServiceTest.testLocacao_filmeSemEstoque_2" />
-        <item itemvalue="JUnit.LocacaoServiceTest.testLocacao" />
       </list>
     </recent_temporary>
   </component>
@@ -341,49 +364,50 @@
       <workItem from="1601739700338" duration="16000" />
       <workItem from="1601756386800" duration="5237000" />
       <workItem from="1601944766403" duration="2013000" />
+      <workItem from="1602110914466" duration="551000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LocacaoServiceTest_testLocacao - 2020.10.03 at 18h 36m 59s.xml">
-      <configuration name="LocacaoServiceTest.testLocacao" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LocacaoServiceTest_testLocacao_filmeSemEstoque - 2020.10.03 at 18h 37m 06s.xml">
-      <configuration name="LocacaoServiceTest.testLocacao_filmeSemEstoque" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LocacaoServiceTest_testLocacao_filmeSemEstoque - 2020.10.03 at 18h 37m 44s.xml">
-      <configuration name="LocacaoServiceTest.testLocacao_filmeSemEstoque" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LocacaoServiceTest_testLocacao_filmeSemEstoque_2 - 2020.10.03 at 18h 41m 17s.xml">
-      <configuration name="LocacaoServiceTest.testLocacao_filmeSemEstoque_2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LocacaoServiceTest_testLocacao_filmeSemEstoque_2 - 2020.10.03 at 18h 41m 37s.xml">
-      <configuration name="LocacaoServiceTest.testLocacao_filmeSemEstoque_2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LocacaoServiceTest_testLocacao_filmeSemEstoque_2 - 2020.10.03 at 18h 42m 50s.xml">
-      <configuration name="LocacaoServiceTest.testLocacao_filmeSemEstoque_2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LocacaoServiceTest_testLocacao_filmeSemEstoque_2 - 2020.10.03 at 18h 43m 07s.xml">
-      <configuration name="LocacaoServiceTest.testLocacao_filmeSemEstoque_2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LocacaoServiceTest_testLocacao_filmeSemEstoque_2 - 2020.10.03 at 18h 44m 19s.xml">
-      <configuration name="LocacaoServiceTest.testLocacao_filmeSemEstoque_2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LocacaoServiceTest - 2020.10.05 at 21h 46m 57s.xml">
+    <history-entry file="LocacaoServiceTest - 2020.10.07 at 19h 52m 33s.xml">
       <configuration name="LocacaoServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LocacaoServiceTest_testLocacao_filmeSemEstoque - 2020.10.05 at 21h 47m 39s.xml">
-      <configuration name="LocacaoServiceTest.testLocacao_filmeSemEstoque" configurationId="JUnit" />
+    <history-entry file="LocacaoServiceTest - 2020.10.07 at 19h 52m 54s.xml">
+      <configuration name="LocacaoServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LocacaoServiceTest_testLocacao_usuarioVazio - 2020.10.07 at 19h 54m 49s.xml">
+      <configuration name="LocacaoServiceTest.testLocacao_usuarioVazio" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LocacaoServiceTest_testLocacao_usuarioVazio - 2020.10.07 at 19h 55m 11s.xml">
+      <configuration name="LocacaoServiceTest.testLocacao_usuarioVazio" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LocacaoServiceTest_testLocacao_usuarioVazio - 2020.10.07 at 19h 56m 02s.xml">
+      <configuration name="LocacaoServiceTest.testLocacao_usuarioVazio" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LocacaoServiceTest_testLocacao_usuarioVazio - 2020.10.07 at 19h 56m 44s.xml">
+      <configuration name="LocacaoServiceTest.testLocacao_usuarioVazio" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LocacaoServiceTest_testLocacao_usuarioVazio - 2020.10.07 at 19h 57m 49s.xml">
+      <configuration name="LocacaoServiceTest.testLocacao_usuarioVazio" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LocacaoServiceTest_testLocacao_usuarioVazio - 2020.10.07 at 19h 58m 39s.xml">
+      <configuration name="LocacaoServiceTest.testLocacao_usuarioVazio" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LocacaoServiceTest_testLocacao_usuarioVazio - 2020.10.07 at 19h 58m 55s.xml">
+      <configuration name="LocacaoServiceTest.testLocacao_usuarioVazio" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LocacaoServiceTest_testLocacao_usuarioVazio - 2020.10.07 at 19h 59m 31s.xml">
+      <configuration name="LocacaoServiceTest.testLocacao_usuarioVazio" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15817000" />
+    <option name="totallyTimeSpent" value="16368000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="22" width="1096" height="1906" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22727273" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23210831" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -497,16 +521,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/br/ce/wcaquino/AssertTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -528,27 +542,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/ce/wcaquino/Exception/FilmeSemEstoqueExcetion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="61" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/br/ce/wcaquino/LocacaoServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1024">
-          <caret line="79" column="26" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/ce/wcaquino/Exception/LocadoraExcetion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="29" />
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding>
             <element signature="e#194#195#0" expanded="true" />
             <element signature="e#224#225#0" expanded="true" />
@@ -556,10 +553,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar!/org/hamcrest/MatcherAssert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/ce/wcaquino/Exception/FilmeSemEstoqueExcetion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/ce/wcaquino/LocacaoService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="109" selection-start-line="18" selection-start-column="109" selection-end-line="18" selection-end-column="109" />
+        <state relative-caret-position="408">
+          <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/ce/wcaquino/AssertTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/ce/wcaquino/LocacaoServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="766">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
