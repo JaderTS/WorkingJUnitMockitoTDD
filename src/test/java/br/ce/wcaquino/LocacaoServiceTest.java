@@ -56,7 +56,7 @@ public class LocacaoServiceTest {
         error.checkThat(isMesmaData(locacao.getDataRetorno(), obterDataComDiferencaDias(1)), is(true));
     }
 
-    //Forma elegante
+    //Forma elegante *** quando apenas a exceção importa - quando tu garante o motivo da exceção
     @Test(expected = FilmeSemEstoqueExcetion.class)
     public void testLocacao_filmeSemEstoque() throws Exception {
         //cenario
@@ -68,7 +68,7 @@ public class LocacaoServiceTest {
         service.alugarFilme(usuario, filme);
     }
 
-    //Robusta
+    //Robusta - recomendada - Controle extra **** pois ela pode ser continuada
     @Test
     public void testLocacao_usuarioVazio() throws FilmeSemEstoqueExcetion {
         //cenario
@@ -84,7 +84,7 @@ public class LocacaoServiceTest {
         }
     }
 
-    // Forma nova
+    // Forma nova **** Não consegue ser continuada em implementar novar verificações
     @Test
     public void testLocacao_FilmeVazio() throws FilmeSemEstoqueExcetion, LocadoraExcetion{
         //cenario
