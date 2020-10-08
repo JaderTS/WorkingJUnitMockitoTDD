@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ed5e67c-edec-438b-88cd-9f4896d58f7d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/br/ce/wcaquino/LocacaoServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/ce/wcaquino/LocacaoServiceTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
@@ -21,12 +20,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/br/ce/wcaquino/LocacaoServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="709">
-              <caret line="72" column="4" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="4" />
+            <state relative-caret-position="454">
+              <caret line="52" column="39" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1009#1010#0" expanded="true" />
-                <element signature="e#1045#1046#0" expanded="true" />
+                <element signature="e#1132#1133#0" expanded="true" />
+                <element signature="e#1175#1176#0" expanded="true" />
+                <element signature="e#1231#1232#0" expanded="true" />
+                <element signature="e#1281#1282#0" expanded="true" />
+                <element signature="e#1404#1405#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,6 +114,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>o</find>
+      <find>service</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -366,14 +369,11 @@
       <workItem from="1601756386800" duration="5237000" />
       <workItem from="1601944766403" duration="2013000" />
       <workItem from="1602110914466" duration="7152000" />
-      <workItem from="1602198243354" duration="852000" />
+      <workItem from="1602198243354" duration="1139000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LocacaoServiceTest_testLocacao_FilmeVazio - 2020.10.07 at 20h 08m 16s.xml">
-      <configuration name="LocacaoServiceTest.testLocacao_FilmeVazio" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LocacaoServiceTest_testLocacao_FilmeVazio - 2020.10.07 at 20h 08m 59s.xml">
       <configuration name="LocacaoServiceTest.testLocacao_FilmeVazio" configurationId="JUnit" />
     </history-entry>
@@ -401,9 +401,12 @@
     <history-entry file="LocacaoServiceTest_testLocacao - 2020.10.08 at 20h 18m 19s.xml">
       <configuration name="LocacaoServiceTest.testLocacao" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LocacaoServiceTest - 2020.10.08 at 20h 19m 08s.xml">
+      <configuration name="LocacaoServiceTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23821000" />
+    <option name="totallyTimeSpent" value="24108000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="22" width="1096" height="1906" extended-state="6" />
@@ -418,7 +421,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32919255" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32919255" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -428,7 +431,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32919255" />
+      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.32919255" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -535,12 +538,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/br/ce/wcaquino/LocacaoServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="709">
-          <caret line="72" column="4" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="4" />
+        <state relative-caret-position="454">
+          <caret line="52" column="39" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1009#1010#0" expanded="true" />
-            <element signature="e#1045#1046#0" expanded="true" />
+            <element signature="e#1132#1133#0" expanded="true" />
+            <element signature="e#1175#1176#0" expanded="true" />
+            <element signature="e#1231#1232#0" expanded="true" />
+            <element signature="e#1281#1282#0" expanded="true" />
+            <element signature="e#1404#1405#0" expanded="true" />
           </folding>
         </state>
       </provider>

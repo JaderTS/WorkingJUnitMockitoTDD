@@ -42,6 +42,17 @@ public class LocacaoServiceTest {
         System.out.println("After");
     }
 
+    @BeforeClass
+    public static void setupClass() {
+        System.out.println("Before Class");
+    }
+
+    //Não usual
+    @AfterClass
+    public static void tearDownClass() {
+        System.out.println("After Class");
+    }
+
     @Test
     public void testLocacao() throws Exception {
         //cenario
