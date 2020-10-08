@@ -6,12 +6,11 @@ import br.ce.wcaquino.entidades.Filme;
 import br.ce.wcaquino.entidades.Locacao;
 import br.ce.wcaquino.entidades.Usuario;
 import br.ce.wcaquino.utils.DataUtils;
-import org.junit.Assert;
-import org.junit.Rule;
-import org.junit.Test;
+import org.junit.*;
 import org.junit.rules.ErrorCollector;
 import org.junit.rules.ExpectedException;
 
+import java.beans.ExceptionListener;
 import java.util.Date;
 
 import static br.ce.wcaquino.utils.DataUtils.isMesmaData;
@@ -22,19 +21,34 @@ import static org.junit.Assert.assertTrue;
 
 public class LocacaoServiceTest {
 
+    //instancia global
+    private LocacaoService service;
+
     @Rule
     public ErrorCollector error = new ErrorCollector();
 
     @Rule
     public ExpectedException exception = ExpectedException.none();
-    private Object nul;
+
+    @Before
+    public void setup() {
+        System.out.println("Before");
+        service = new LocacaoService();
+    }
+
+    //Não usual
+    @After
+    public void tearDown() {
+        System.out.println("After");
+    }
 
     @Test
     public void testLocacao() throws Exception {
         //cenario
-        LocacaoService service = new LocacaoService();
         Usuario usuario = new Usuario("Usuario 1");
         Filme filme = new Filme("Filme 1", 2, 5.0);
+
+        System.out.println("Test");
 
         //acao
         Locacao locacao = service.alugarFilme(usuario, filme);
@@ -60,7 +74,6 @@ public class LocacaoServiceTest {
     @Test(expected = FilmeSemEstoqueExcetion.class)
     public void testLocacao_filmeSemEstoque() throws Exception {
         //cenario
-        LocacaoService service = new LocacaoService();
         Usuario usuario = new Usuario("Usuario 1");
         Filme filme = new Filme("Fime 1", 0, 5.0);
 
@@ -72,7 +85,6 @@ public class LocacaoServiceTest {
     @Test
     public void testLocacao_usuarioVazio() throws FilmeSemEstoqueExcetion {
         //cenario
-        LocacaoService service = new LocacaoService();
         Filme filme = new Filme("Filme 2", 1, 4.0);
 
         //acao
@@ -86,9 +98,8 @@ public class LocacaoServiceTest {
 
     // Forma nova **** Não consegue ser continuada em implementar novar verificações
     @Test
-    public void testLocacao_FilmeVazio() throws FilmeSemEstoqueExcetion, LocadoraExcetion{
+    public void testLocacao_FilmeVazio() throws FilmeSemEstoqueExcetion, LocadoraExcetion {
         //cenario
-        LocacaoService service = new LocacaoService();
         Usuario usuario = new Usuario("Usuario 1");
 
         exception.expect((LocadoraExcetion.class));
