@@ -5,12 +5,11 @@ import br.ce.wcaquino.Exception.LocadoraExcetion;
 import br.ce.wcaquino.entidades.Filme;
 import br.ce.wcaquino.entidades.Locacao;
 import br.ce.wcaquino.entidades.Usuario;
-import br.ce.wcaquino.utils.DataUtils;
+import br.ce.wcaquino.servicos.LocacaoService;
 import org.junit.*;
 import org.junit.rules.ErrorCollector;
 import org.junit.rules.ExpectedException;
 
-import java.beans.ExceptionListener;
 import java.util.Date;
 
 import static br.ce.wcaquino.utils.DataUtils.isMesmaData;
@@ -32,25 +31,7 @@ public class LocacaoServiceTest {
 
     @Before
     public void setup() {
-        System.out.println("Before");
         service = new LocacaoService();
-    }
-
-    //Não usual
-    @After
-    public void tearDown() {
-        System.out.println("After");
-    }
-
-    @BeforeClass
-    public static void setupClass() {
-        System.out.println("Before Class");
-    }
-
-    //Não usual
-    @AfterClass
-    public static void tearDownClass() {
-        System.out.println("After Class");
     }
 
     @Test
@@ -58,8 +39,6 @@ public class LocacaoServiceTest {
         //cenario
         Usuario usuario = new Usuario("Usuario 1");
         Filme filme = new Filme("Filme 1", 2, 5.0);
-
-        System.out.println("Test");
 
         //acao
         Locacao locacao = service.alugarFilme(usuario, filme);

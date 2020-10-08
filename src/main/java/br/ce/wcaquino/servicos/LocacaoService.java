@@ -1,4 +1,4 @@
-package br.ce.wcaquino;
+package br.ce.wcaquino.servicos;
 
 import java.util.Date;
 import br.ce.wcaquino.Exception.FilmeSemEstoqueExcetion;
